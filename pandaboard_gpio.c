@@ -17,6 +17,7 @@
 #include <linux/ioctl.h>
 #include <linux/kthread.h>
 
+/** status structure **/
 typedef struct{
     int status, rate;
 }led_t;
