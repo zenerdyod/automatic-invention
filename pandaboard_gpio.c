@@ -1,3 +1,8 @@
+/**
+ * @file    : pandaboard_gpio.c
+ * @Brief   : This file contains the source code for driving a gpio
+ *          : for pandaboard.
+ **/
 #include <linux/module.h>
 #include <linux/init.h>
 #include <linux/kernel.h>
@@ -26,7 +31,7 @@ typedef struct{
 #define MINOR_CNT    1
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Sayooj K Karun");
+MODULE_AUTHOR("zenerdyod");
 MODULE_DESCRIPTION("LED DRIVER");
 MODULE_VERSION("0.1");
 led_t led_dev;
